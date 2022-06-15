@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-vala-template package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-vala-template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-15 15:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. DO NOT TRANSLATE
+#: data/com.nahuelwexd.GnomeValaTemplate.desktop.in.in:6
+msgid "GNOME Vala Template"
+msgstr ""
+
+#. A small summary about the app, to be shown in the desktop entry
+#: data/com.nahuelwexd.GnomeValaTemplate.desktop.in.in:8
+msgid "A template for GNOME apps written in Vala"
+msgstr ""
+
+#. The title of the about dialog
+#: src/Application.vala:48
+msgctxt "about dialog"
+msgid "About GNOME Vala Template"
+msgstr ""
+
+#. A small summary about the app
+#: src/Application.vala:52
+msgctxt "about dialog"
+msgid "A template for GNOME apps written in Vala"
+msgstr ""
+
+#. Greetings to the world. The typical phrase for any first program.
+#: src/MainWindow.ui:23
+msgctxt "main window"
+msgid "Hello, World!"
+msgstr ""
+
+#. The primary menu item to open the preferences
+#: src/MainWindow.ui:39
+msgctxt "primary menu"
+msgid "_Preferences"
+msgstr ""
+
+#. The primary menu item to open keyboard shortcuts
+#: src/MainWindow.ui:45
+msgctxt "primary menu"
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#. The primary menu item to open the about
+#: src/MainWindow.ui:51
+msgctxt "primary menu"
+msgid "_About GNOME Vala Template"
+msgstr ""

@@ -44,10 +44,12 @@ sealed class GnomeValaTemplate.Application : Adw.Application {
             transient_for = this.active_window,
             modal = true,
             destroy_with_parent = true,
-            title = C_("about dialog title", "About GNOME Vala Template"),
+            // The title of the about dialog
+            title = C_("about dialog", "About GNOME Vala Template"),
             logo_icon_name = Config.APPLICATION_ID,
             version = Config.VERSION,
-            comments = "A template for GNOME apps written in Vala",
+            // A small summary about the app
+            comments = C_("about dialog", "A template for GNOME apps written in Vala"),
             // TODO: Insert your website here
             // website = "https://github.com/nahuelwexd/gnome-vala-template",
             copyright = "© 2022 Nahuel Gomez",
