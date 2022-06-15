@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type = Application
+Version = 1.5
+# TRANSLATORS: The app name. DO NOT TRANSLATE.
+Name = GNOME Vala Template
+# TRANSLATORS: The generic app name.
+GenericName = GNOME Vala Template
+# TRANSLATORS: A little summary about the app.
+Comment = A template for GNOME apps written in Vala
+Icon = @ICON_NAME@
+TryExec = @COMMAND@
+Exec = @COMMAND@
+Terminal = false
+Categories = GTK;GNOME;
+StartupNotify = true
+SingleMainWindow = true
