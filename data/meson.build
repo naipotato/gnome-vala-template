@@ -29,6 +29,37 @@ if desktop_file_validate.found()
   )
 endif
 
+# configure and install the appdata file
+configured_appdata_file = configure_file(
+  input         : f'@rdnn_app_name@.metainfo.xml.in.in',
+  output        : f'@rdnn_app_name@.metainfo.xml.in',
+  configuration : {
+    'APPLICATION_ID'  : application_id,
+    'GETTEXT_PACKAGE' : gettext_package,
+  },
+)
+
+appdata_file = i18n.merge_file(
+  input       : configured_appdata_file,
+  output      : f'@application_id@.metainfo.xml',
+  po_dir      : meson.project_source_root() / 'po',
+  type        : 'xml',
+  install     : true,
+  install_dir : datadir / 'metainfo',
+)
+
+# validate the appdata file
+appstream_util = find_program('appstream-util', required : false)
+
+if appstream_util.found()
+  test(
+    'validate-appdata-file',
+    appstream_util,
+
+    args : ['validate', appdata_file],
+  )
+endif
+
 # configure and install the gschema file
 configure_file(
   input         : f'@rdnn_app_name@.gschema.xml.in',

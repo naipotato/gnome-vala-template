@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APPLICATION_ID@</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>GNOME Vala Template</name>
+  <summary>A template for GNOME apps written in Vala</summary>
+  <url type="homepage">https://github.com/nahuelwexd/gnome-vala-template</url>
+  <url type="bugtracker">https://github.com/nahuelwexd/gnome-vala-template</url>
+  <content_rating type="oars-1.0" />
+  <developer_name>Nahuel Gomez</developer_name>
+  <update_contact>nahuel@nahuelwexd.com</update_contact>
+  <translation type="gettext">@GETTEXT_PACKAGE@</translation>
+  <launchable type="desktop-id">@APPLICATION_ID@.desktop</launchable>
+
+  <description>
+    <p>A boilerplate template for GNOME apps written in Vala. It uses Meson as build system and has Flatpak support by default.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/nahuelwexd/gnome-vala-template/raw/main/data/screenshots/screenshot-1.png</image>
+      <caption>Main Window</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.1.0" date="2022-06-16" />
+  </releases>
+
+  <kudos>
+    <!--
+      GNOME Software kudos:
+      https://gitlab.gnome.org/GNOME/gnome-software/-/blob/main/doc/kudos.md
+    -->
+    <kudo>ModernToolkit</kudo>
+    <kudo>HiDpiIcon</kudo>
+  </kudos>
+
+</component>
