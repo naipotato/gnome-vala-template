@@ -3,8 +3,9 @@
 
 <template class="GnomeValaTemplateMainWindow" parent="GtkApplicationWindow">
   <property name="title">GNOME Vala Template</property>
-  <property name="default-width">600</property>
-  <property name="default-height">400</property>
+  <signal name="notify::default-width" handler="save_window_size" />
+  <signal name="notify::default-height" handler="save_window_size" />
+  <signal name="notify::maximized" handler="save_window_size" />
 
   <child type="titlebar">
     <object class="GtkHeaderBar">
