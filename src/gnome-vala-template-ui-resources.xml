@@ -5,4 +5,8 @@
   <file compressed="true" preprocess="xml-stripblanks">MainWindow.ui</file>
 </gresource>
 
+<gresource prefix="/com/nahuelwexd/GnomeValaTemplate/gtk">
+  <file compressed="true" preprocess="xml-stripblanks" alias="help-overlay.ui">Shortcuts.ui</file>
+</gresource>
+
 </gresources>
