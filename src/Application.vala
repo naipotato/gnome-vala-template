@@ -50,11 +50,11 @@ sealed class GnomeValaTemplate.Application : Adw.Application {
             version = Config.VERSION,
             // A small summary about the app
             comments = C_("about dialog", "A template for GNOME apps written in Vala"),
-            // TODO: Insert your website here
-            // website = "https://github.com/nahuelwexd/gnome-vala-template",
+            website = "https://github.com/nahuelwexd/gnome-vala-template",
+            // A name to describe the link to the project repository
+            website_label = C_("about dialog", "Project Repository"),
             copyright = "© 2022 Nahuel Gomez",
-            // TODO: Insert your license of choice here
-            // license = GPL_3_0,
+            license_type = MIT_X11,
             authors = { "Nahuel Gomez Castro" },
             artists = { "Nahuel Gomez Castro" },
         };
