@@ -3,7 +3,7 @@ project(
   'vala', 'c',
 
   default_options : 'warning_level=2',
-  # license       : 'MIT',
+  license         : 'MIT',
   meson_version   : '>=0.59.0',
   version         : '0.1.0',
 )
