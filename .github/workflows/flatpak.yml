@@ -53,6 +53,5 @@ jobs:
         with:
           manifest-path: com.nahuelwexd.GnomeValaTemplate.Devel.yml
           bundle: com.nahuelwexd.GnomeValaTemplate.Devel.flatpak
-          branch: main
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
