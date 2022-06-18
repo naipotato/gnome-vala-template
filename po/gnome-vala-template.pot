@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-vala-template\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 18:52-0300\n"
+"POT-Creation-Date: 2022-06-18 01:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,25 +46,43 @@ msgid "Project Repository"
 msgstr ""
 
 #. Greetings to the world. The typical phrase for any first program.
-#: src/MainWindow.ui:23
+#: src/MainWindow.ui:24
 msgctxt "main window"
 msgid "Hello, World!"
 msgstr ""
 
 #. The primary menu item to open the preferences
-#: src/MainWindow.ui:39
+#: src/MainWindow.ui:40
 msgctxt "primary menu"
 msgid "_Preferences"
 msgstr ""
 
 #. The primary menu item to open keyboard shortcuts
-#: src/MainWindow.ui:45
+#: src/MainWindow.ui:46
 msgctxt "primary menu"
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
 #. The primary menu item to open the about
-#: src/MainWindow.ui:51
+#: src/MainWindow.ui:52
 msgctxt "primary menu"
 msgid "_About GNOME Vala Template"
+msgstr ""
+
+#. The title of the general shortcuts section
+#: src/Shortcuts.ui:12
+msgctxt "shortcuts window"
+msgid "General"
+msgstr ""
+
+#. The name of the shortcut that shows the shortcut window
+#: src/Shortcuts.ui:17
+msgctxt "shortcuts window"
+msgid "Show keyboard shortcuts"
+msgstr ""
+
+#. The name of the shortcut that closes the application
+#: src/Shortcuts.ui:25
+msgctxt "shortcuts window"
+msgid "Quit application"
 msgstr ""

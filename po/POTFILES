@@ -1,3 +1,4 @@
 data/com.nahuelwexd.GnomeValaTemplate.desktop.in.in
 src/Application.vala
 src/MainWindow.ui
+src/Shortcuts.ui

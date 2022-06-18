@@ -8,10 +8,12 @@
     <object class="GtkShortcutsSection">
       <child>
         <object class="GtkShortcutsGroup">
+          <!-- The title of the general shortcuts section -->
           <property name="title" translatable="yes" context="shortcuts window">General</property>
 
           <child>
             <object class="GtkShortcutsShortcut">
+              <!-- The name of the shortcut that shows the shortcut window -->
               <property name="title" translatable="yes" context="shortcuts window">Show keyboard shortcuts</property>
               <property name="action-name">win.show-help-overlay</property>
             </object>
@@ -19,6 +21,7 @@
 
           <child>
             <object class="GtkShortcutsShortcut">
+              <!-- The name of the shortcut that closes the application -->
               <property name="title" translatable="yes" context="shortcuts window">Quit application</property>
               <property name="action-name">app.quit</property>
             </object>
